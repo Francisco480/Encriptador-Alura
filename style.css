@@ -106,8 +106,8 @@ main{
 }
 
 .seccion-2{
-    display: block;
-    position: relative;
+    display: flex;
+    position: absolute;
     width: 400px;
     height: 840px;
     right: 200px;
@@ -163,6 +163,8 @@ main{
 .contenedorResultado p{
     color: #495057;
     font-size: 25px;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .contenedorCopiar{
